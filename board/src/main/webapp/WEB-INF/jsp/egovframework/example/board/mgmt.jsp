@@ -44,7 +44,7 @@
 		    <label class="control-label col-sm-2" for="pwd">등록자/등록일:</label>
 		    <div class="col-sm-10"> 
 		      <input type="password" class="form-control" id="writer" name="writer" placeholder="등록자를 입력하세요" maxlength="15" style="float:left;width:40%;">
-		      <input type="password" class="form-control" id="indate" name="indate" placeholder="등록자를 입력하세요" maxlength="10" style="float:left;width:40%;">
+		      <input type="password" class="form-control" id="indate" name="indate" placeholder="등록일을 입력하세요" maxlength="10" style="float:left;width:40%;">
 		    </div>
 		  </div>
 		  <div class="form-group">
