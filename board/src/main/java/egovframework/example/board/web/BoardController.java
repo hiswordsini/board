@@ -25,5 +25,5 @@ public class BoardController {
 	public String view(ModelMap model) throws Exception {
 		
 		return "board/view";
-	}
+	}  
 }
