@@ -32,6 +32,17 @@
         			$('#password').val('guest2');
         		}
         	}
+        	function check(){
+        		if($('#user_id').val() == ''){
+        			alert("아이디를 입력하세요");
+        			return false;
+        		}
+        		if($('#password').val() == ''){
+        			alert("비밀번호를 입력하세요");
+        			return false;
+        		}
+        		return true;
+        	}
         	
         </script>
 <head>
@@ -55,7 +66,7 @@
 		    <label for="pwd">Password:</label>
 		    <input type="password" class="form-control" id="password">
 		  </div>
-		  <button type="submit" class="btn btn-default">로그인</button>
+		  <button type="submit" class="btn btn-default" onclick="return check();">로그인</button>
 		</form>
     </div>
     <div class="panel-body">
